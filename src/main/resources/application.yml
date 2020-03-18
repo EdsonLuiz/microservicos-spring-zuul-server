@@ -15,3 +15,6 @@ zuul:
     produtos:
       path: /api/prod/**
       service-id: servico-produtos
+    usuarios:
+      path: /api/usuarios/**
+      service-id: servico-usuarios
